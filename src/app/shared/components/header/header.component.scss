@@ -1,0 +1,20 @@
+.header {
+  background: #1a1e24;
+  padding: 2rem;
+
+  &__row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logo {
+    font-size: 2rem;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.games {
+  padding: 2rem 0;
+
+  &-container {
+    margin-bottom: 2rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
