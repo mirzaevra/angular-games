@@ -1,8 +1,9 @@
 import {NgModule} from '@angular/core';
+import { MainLayoutComponent } from './components/main-layout/main-layout.component';
 
 
 @NgModule({
-  declarations: []
+  declarations: [MainLayoutComponent]
 })
 
 export class SharedModule {
